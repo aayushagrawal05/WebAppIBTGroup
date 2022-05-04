@@ -1,0 +1,26 @@
+{
+  "name": "express-template-2022",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.2",
+    "firebase": "^9.6.11",
+    "firebase-admin": "^10.0.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.7",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
